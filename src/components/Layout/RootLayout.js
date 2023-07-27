@@ -40,8 +40,8 @@ const RootLayout = ({ children }) => {
   const router = useRouter();
 
   return (
-    <Layout className="layout ">
-      <Header className="bg-transparent sticky top-0 backdrop-blur-lg z-20 flex w-full items-center justify-between ">
+    <Layout className="layout">
+      <Header className="bg-transparent sticky top-0 backdrop-blur-lg z-20 flex items-center justify-between ">
         <div className="flex items-center">
           <Image src={logo} className="w-24 sm:w-32 rounded-md h-full" alt="logo" />
           <Dropdown
@@ -65,7 +65,7 @@ const RootLayout = ({ children }) => {
           </button>
         </div>
       </Header>
-      <Content style={{ padding: "0 50px" }}>
+      <Content className="container mx-auto">
         <div className="site-layout-content min-h-screen">{children}</div>
       </Content>
       <Footer style={{ textAlign: "center" }}>
