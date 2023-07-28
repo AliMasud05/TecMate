@@ -37,9 +37,9 @@ const ProductCard = ({ product }) => {
   return (
     <div
       onClick={() => router.push(`products/${_id}`)}
-      className="max-w-[300px] w-full mx-auto border border-gray-300 bg-white rounded-md shadow-md cursor-pointer flex flex-col gap-2 justify-between"
+      className="max-w-[270px] w-full mx-auto border border-gray-300 bg-white rounded-md shadow-md cursor-pointer flex flex-col gap-2 justify-between"
     >
-      <div className="h-[250px] relative">
+      <div className="h-[240px] relative">
         <Image
           fill={true}
           className="object-cover rounded-md"
@@ -48,7 +48,7 @@ const ProductCard = ({ product }) => {
         />
       </div>
         <div className="px-2">
-          <h1 className="font-semibold mt-1 mb-2 text-base">{name}</h1>
+          <h1 className="font-semibold mt-1 mb-2">{name}</h1>
         </div>
 
         <div className="p-2">
