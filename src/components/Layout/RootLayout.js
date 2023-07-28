@@ -4,7 +4,7 @@ import { DownOutlined, SmileOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo.png";
 import Image from "next/image";
 const RootLayout = ({ children }) => {
   const items = [
@@ -41,9 +41,15 @@ const RootLayout = ({ children }) => {
 
   return (
     <Layout className="layout">
-      <Header className="bg-transparent sticky top-0 backdrop-blur-lg z-20 flex items-center justify-between ">
+      <Header className="bg-white/60 sticky top-0 backdrop-blur-lg z-20 flex items-center justify-between container">
         <div className="flex items-center">
-          <Image src={logo} className="w-24 sm:w-32 rounded-md h-full" alt="logo" />
+          <Link href={"/"}>
+            <Image
+              src={logo}
+              className="w-24 sm:w-32 rounded-md h-full cursor-pointer"
+              alt="logo"
+            />
+          </Link>
           <Dropdown
             className="ml-5"
             menu={{
@@ -59,7 +65,7 @@ const RootLayout = ({ children }) => {
         <div>
           <button
             onClick={() => router.push("/pc-build")}
-            className="border-0 bg-blue-900 text-white py-1.5 sm:py-2 px-4 text-xs font-semibold rounded-full cursor-pointer hover:bg-blue-800 transition-all duration-200"
+            className="border-0 bg-purple-800 text-white py-1.5 sm:py-2 px-4 text-xs font-semibold rounded-full cursor-pointer hover:bg-purple-900 transition-all duration-200"
           >
             PC Builder
           </button>
