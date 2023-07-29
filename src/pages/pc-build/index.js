@@ -32,7 +32,7 @@ const PcBuildPage = () => {
     return cpu && motherboard && ram && psu && storage && monitor && others;
   };
   return (
-    <div className="flex justify-center mx-auto w-full max-w-xl border-gray-300 mt-5 border p-2 shadow-md rounded-md">
+    <div className="flex justify-center mx-auto w-full max-w-xl border-gray-300 mt-5 border p-2 shadow-md rounded-md mb-10">
       <div className="w-full">
         <div>
           <h1 className="font-semibold text-lg text-center my-4">

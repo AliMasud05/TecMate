@@ -1,4 +1,4 @@
-
+import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
 import store from "@/redux/store";
 import "@/styles/globals.css";
@@ -16,6 +16,7 @@ export default function App({ Component, pageProps }) {
           <Toaster />
           <Navbar />
           <Component {...pageProps} />
+          <Footer />
         </Provider>
       </StyleProvider>
     </SessionProvider>

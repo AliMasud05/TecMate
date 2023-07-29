@@ -6,7 +6,7 @@ import FeaturedCategory from "@/components/ui/FeaturedCategory";
 
 const HomePage = ({ allProducts }) => {
   return (
-    <div className="max-w-7xl mx-auto pb-10">
+    <div className="max-w-7xl mx-auto pb-10 min-h-screen">
       <HomeSlider />
 
       <div className="mt-10">
