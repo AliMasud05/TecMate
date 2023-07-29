@@ -1,7 +1,10 @@
 import { useRouter } from "next/router";
 import Image from "next/image";
+import { useDispatch } from "react-redux";
+import { handlePcBuild } from "@/redux/features/pcBuild/pcBuildSlice";
 
 const SelectProductCard = ({ product }) => {
+  const dispatch = useDispatch();
   const { _id, name, category, price, image, status, rating } = product || {};
 
   let newCategory = null;
@@ -36,6 +39,11 @@ const SelectProductCard = ({ product }) => {
   }
   const router = useRouter();
 
+  const handlePcBuildFunc = () => {
+    dispatch(handlePcBuild(product));
+    router.push("/pc-build");
+  };
+
   const createSVGIcon = () => (
     <svg
       className="rating-icon"
@@ -51,11 +59,8 @@ const SelectProductCard = ({ product }) => {
   );
 
   return (
-    <div
-      onClick={() => router.push(`/products/${_id}`)}
-      className="max-w-[270px] w-full mx-auto border border-gray-300 bg-white rounded-md shadow-md cursor-pointer flex flex-col gap-2 justify-between"
-    >
-      <div className="h-[240px] relative">
+    <div className="max-w-[270px] w-full mx-auto border border-gray-300 bg-white rounded-md shadow-md flex flex-col gap-2 justify-between">
+      <div className="h-[200px] relative">
         <Image
           fill={true}
           className="object-cover rounded-md"
@@ -91,7 +96,17 @@ const SelectProductCard = ({ product }) => {
           </span>
         </div>
 
-        <button className="mt-3 text-center w-full bg-slate-800 text-white py-1.5 rounded-full font-medium text-xs">
+        <button
+          onClick={() => router.push(`/products/${_id}`)}
+          className="mt-3 text-center w-full bg-slate-800 text-white py-1.5 rounded-full font-medium text-xs"
+        >
+          Details
+        </button>
+
+        <button
+          onClick={handlePcBuildFunc}
+          className="mt-3 text-center w-full bg-slate-800 text-white py-1.5 rounded-full font-medium text-xs"
+        >
           Add To Builder
         </button>
       </div>
