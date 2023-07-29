@@ -9,8 +9,8 @@ import Image from "next/image";
 import { useSession, signIn, signOut } from "next-auth/react";
 
 const RootLayout = ({ children }) => {
-  const { data: session } = useSession();
-  console.log(session, "from navbar");
+  // const { data: session } = useSession();
+
   const items = [
     {
       key: "1",
@@ -45,7 +45,7 @@ const RootLayout = ({ children }) => {
 
   return (
     <Layout className="layout">
-      <Header className="bg-white/60 sticky top-0 backdrop-blur-lg z-20 flex items-center justify-between container">
+      <Header className="bg-white/60 sticky top-0 backdrop-blur-lg z-20 flex items-center justify-between container mx-auto">
         <div className="flex items-center">
           <Link href={"/"}>
             <Image
@@ -73,7 +73,7 @@ const RootLayout = ({ children }) => {
           >
             PC Builder
           </button>
-          {session?.user ? (
+          {/* {session?.user ? (
             <button
               onClick={() => signOut()}
               className="ml-5 border-0 bg-red-500 text-white py-1.5 px-3 text-xs font-semibold rounded-full cursor-pointer hover:bg-red-600 transition-all duration-200"
@@ -87,7 +87,7 @@ const RootLayout = ({ children }) => {
             >
               Login
             </button>
-          )}
+          )} */}
         </div>
       </Header>
       <Content className="container mx-auto">

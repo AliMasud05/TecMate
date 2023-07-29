@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { useSelector } from "react-redux";
 import { toast } from "react-hot-toast";
 import Image from "next/image";
+import RootLayout from "@/components/Layout/RootLayout";
 const createSVGIcon = () => (
   <svg
     className="rating-icon"
@@ -363,3 +364,7 @@ const PcBuildPage = () => {
 };
 
 export default PcBuildPage;
+
+PcBuildPage.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
+};

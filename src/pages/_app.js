@@ -9,15 +9,13 @@ import { Provider } from "react-redux";
 export default function App({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
   return getLayout(
-    <StyleProvider hashPriority="high">
-      <SessionProvider session={pageProps.session}>
-        <RootLayout>
-          <Provider store={store}>
-            <Toaster />
-            <Component {...pageProps} />s
-          </Provider>
-        </RootLayout>
-      </SessionProvider>
-    </StyleProvider>
+    <SessionProvider session={pageProps.session}>
+      <StyleProvider hashPriority="high">
+        <Provider store={store}>
+          <Toaster />
+          <Component {...pageProps} />
+        </Provider>
+      </StyleProvider>
+    </SessionProvider>
   );
 }
