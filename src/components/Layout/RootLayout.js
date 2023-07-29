@@ -6,7 +6,11 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import logo from "../../assets/logo.png";
 import Image from "next/image";
+import { useSession, signIn, signOut } from "next-auth/react";
+
 const RootLayout = ({ children }) => {
+  const { data: session } = useSession();
+  console.log(session, "from navbar");
   const items = [
     {
       key: "1",
@@ -65,10 +69,25 @@ const RootLayout = ({ children }) => {
         <div>
           <button
             onClick={() => router.push("/pc-build")}
-            className="border-0 bg-purple-800 text-white py-1.5 sm:py-2 px-4 text-xs font-semibold rounded-full cursor-pointer hover:bg-purple-900 transition-all duration-200"
+            className="border-0 bg-purple-800 text-white py-1.5 px-3 text-xs font-semibold rounded-full cursor-pointer hover:bg-purple-900 transition-all duration-200"
           >
             PC Builder
           </button>
+          {session?.user ? (
+            <button
+              onClick={() => signOut()}
+              className="ml-5 border-0 bg-red-500 text-white py-1.5 px-3 text-xs font-semibold rounded-full cursor-pointer hover:bg-red-600 transition-all duration-200"
+            >
+              Logout
+            </button>
+          ) : (
+            <button
+              onClick={() => router.push("/login")}
+              className="ml-5 border-0 bg-red-500 text-white py-1.5 px-3 text-xs font-semibold rounded-full cursor-pointer hover:bg-red-600 transition-all duration-200"
+            >
+              Login
+            </button>
+          )}
         </div>
       </Header>
       <Content className="container mx-auto">

@@ -1,11 +1,17 @@
+import RootLayout from "@/components/Layout/RootLayout";
 import "@/styles/globals.css";
 import { StyleProvider } from "@ant-design/cssinjs";
+import { SessionProvider } from "next-auth/react";
 
 export default function App({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page);
   return getLayout(
     <StyleProvider hashPriority="high">
-      <Component {...pageProps} />
-     </StyleProvider>
+      <SessionProvider session={pageProps.session}>
+        <RootLayout>
+          <Component {...pageProps} />
+        </RootLayout>
+      </SessionProvider>
+    </StyleProvider>
   );
 }
