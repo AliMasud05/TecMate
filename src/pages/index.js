@@ -1,6 +1,5 @@
 import { Button } from "antd";
 import React, { useState } from "react";
-import RootLayout from "@/components/Layout/RootLayout";
 import HomeSlider from "@/components/ui/Slider";
 import ProductCard from "@/components/ui/ProductCard";
 import FeaturedCategory from "@/components/ui/FeaturedCategory";
@@ -36,10 +35,6 @@ const HomePage = ({ allProducts }) => {
 };
 
 export default HomePage;
-
-HomePage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
 
 export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/products?featured=true");

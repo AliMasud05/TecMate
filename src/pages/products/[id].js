@@ -1,4 +1,3 @@
-import RootLayout from "@/components/Layout/RootLayout";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
@@ -58,7 +57,7 @@ const ProductDetailPage = ({ product }) => {
   );
 
   return (
-    <div className="p-3 mt-5 md:mt-10">
+    <div className="p-3 mt-5 md:mt-10 container mx-auto">
       <div class="xl:flex">
         <div class="xl:flex-1">
           <div className="flex-1 relative w-full max-w-sm h-80 mx-auto">
@@ -134,9 +133,6 @@ const ProductDetailPage = ({ product }) => {
 };
 
 export default ProductDetailPage;
-ProductDetailPage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
 
 export async function getStaticPaths() {
   const res = await fetch(`http://localhost:5000/products`);

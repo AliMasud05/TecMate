@@ -1,4 +1,4 @@
-import RootLayout from "@/components/Layout/RootLayout";
+
 import ProductCard from "@/components/ui/ProductCard";
 
 const RamPage = ({ rams }) => {
@@ -17,9 +17,6 @@ const RamPage = ({ rams }) => {
 };
 
 export default RamPage;
-RamPage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
 
 export const getStaticProps = async () => {
   const res = await fetch("http://localhost:5000/products?category=ram");

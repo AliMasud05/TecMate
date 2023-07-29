@@ -1,4 +1,5 @@
-import RootLayout from "@/components/Layout/RootLayout";
+
+import Navbar from "@/components/shared/Navbar";
 import store from "@/redux/store";
 import "@/styles/globals.css";
 import { StyleProvider } from "@ant-design/cssinjs";
@@ -13,6 +14,7 @@ export default function App({ Component, pageProps }) {
       <StyleProvider hashPriority="high">
         <Provider store={store}>
           <Toaster />
+          <Navbar />
           <Component {...pageProps} />
         </Provider>
       </StyleProvider>
