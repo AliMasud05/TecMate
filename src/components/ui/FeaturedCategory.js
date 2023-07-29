@@ -5,7 +5,7 @@ import { BsCpuFill, BsFillMotherboardFill, BsThreeDots } from "react-icons/bs";
 import { CgSmartphoneRam } from "react-icons/cg";
 import { ImPowerCord } from "react-icons/im";
 import { MdStorage } from "react-icons/md";
-import { GrMonitor } from "react-icons/gr";
+import { FiMonitor } from "react-icons/fi";
 const FeaturedCategory = () => {
   const router = useRouter();
   return (
@@ -50,7 +50,7 @@ const FeaturedCategory = () => {
           onClick={() => router.push("/monitor")}
           className="border border-gray-300 max-w-[110px] w-full h-24 p-2 hover:shadow-lg hover:text-violet-600 shadow-gray-400 flex flex-col justify-center items-center rounded-md transition-all duration-200 cursor-pointer mx-auto"
         >
-          <GrMonitor size={40} />
+          <FiMonitor size={40} />
           <p className="mt-1">Monitor</p>
         </div>
         <div
