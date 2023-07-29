@@ -1,7 +1,7 @@
-
-import Image from "next/image";
 import { useRouter } from "next/router";
-const ProductCard = ({ product }) => {
+import Image from "next/image";
+
+const SelectProductCard = ({ product }) => {
   const { _id, name, category, price, image, status, rating } = product || {};
 
   let newCategory = null;
@@ -81,16 +81,22 @@ const ProductCard = ({ product }) => {
         <div className="flex justify-between mt-3">
           <span className="flex">
             {Array.from({ length: rating }).map((_, index) => (
-              <span className="" key={index}>{createSVGIcon()}</span>
+              <span className="" key={index}>
+                {createSVGIcon()}
+              </span>
             ))}
           </span>
           <span className="font-semibold text-red-500">
             {product.price} <span className="">/-</span>
           </span>
         </div>
+
+        <button className="mt-3 text-center w-full bg-slate-800 text-white py-1.5 rounded-full font-medium text-xs">
+          Add To Builder
+        </button>
       </div>
     </div>
   );
 };
 
-export default ProductCard;
+export default SelectProductCard;

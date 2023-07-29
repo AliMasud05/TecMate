@@ -4,8 +4,10 @@ import { CgSmartphoneRam } from "react-icons/cg";
 import { ImPowerCord } from "react-icons/im";
 import { MdStorage } from "react-icons/md";
 import { FiMonitor } from "react-icons/fi";
+import { useRouter } from "next/router";
 
 const PcBuildPage = () => {
+  const router = useRouter();
   return (
     <div className="flex justify-center mx-auto w-full max-w-xl border-gray-300 mt-5 border p-2 shadow-md rounded-md">
       <div className="w-full">
@@ -26,7 +28,10 @@ const PcBuildPage = () => {
             </div>
           </div>
 
-          <button className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full">
+          <button
+            onClick={() => router.push("/select/cpu")}
+            className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full"
+          >
             Select
           </button>
         </div>
@@ -42,7 +47,10 @@ const PcBuildPage = () => {
             </div>
           </div>
 
-          <button className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full">
+          <button
+            onClick={() => router.push("/select/motherboard")}
+            className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full"
+          >
             Select
           </button>
         </div>
@@ -58,7 +66,10 @@ const PcBuildPage = () => {
             </div>
           </div>
 
-          <button className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full">
+          <button
+            onClick={() => router.push("/select/ram")}
+            className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full"
+          >
             Select
           </button>
         </div>
@@ -74,7 +85,10 @@ const PcBuildPage = () => {
             </div>
           </div>
 
-          <button className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full">
+          <button
+            onClick={() => router.push("/select/psu")}
+            className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full"
+          >
             Select
           </button>
         </div>
@@ -90,7 +104,10 @@ const PcBuildPage = () => {
             </div>
           </div>
 
-          <button className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full">
+          <button
+            onClick={() => router.push("/select/storage")}
+            className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full"
+          >
             Select
           </button>
         </div>
@@ -106,7 +123,10 @@ const PcBuildPage = () => {
             </div>
           </div>
 
-          <button className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full">
+          <button
+            onClick={() => router.push("/select/monitor")}
+            className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full"
+          >
             Select
           </button>
         </div>
@@ -121,14 +141,18 @@ const PcBuildPage = () => {
               <div class="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
             </div>
           </div>
-
-          <button className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full">
+          <button
+            onClick={() => router.push("/select/others")}
+            className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full"
+          >
             Select
           </button>
         </div>
 
         <div className="text-center">
-          <button className=" bg-slate-700 text-white px-4 py-1.5 my-5 font-medium rounded-sm">Complete Build</button>
+          <button className=" bg-slate-700 text-white px-4 py-1.5 my-5 font-medium rounded-sm">
+            Complete Build
+          </button>
         </div>
       </div>
     </div>
