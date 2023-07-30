@@ -1,4 +1,3 @@
-
 import ProductCard from "@/components/ui/ProductCard";
 
 const RamPage = ({ rams }) => {
@@ -19,7 +18,9 @@ const RamPage = ({ rams }) => {
 export default RamPage;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products?category=ram");
+  const res = await fetch(
+    "https://pc-builder-hi41.onrender.com/products?category=ram"
+  );
   const data = await res.json();
   return {
     props: {

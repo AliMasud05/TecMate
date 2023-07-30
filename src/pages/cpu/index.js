@@ -1,4 +1,3 @@
-
 import ProductCard from "@/components/ui/ProductCard";
 import React from "react";
 
@@ -20,7 +19,9 @@ const ProcessorPage = ({ processors }) => {
 export default ProcessorPage;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products?category=cpu");
+  const res = await fetch(
+    "https://pc-builder-hi41.onrender.com/products?category=cpu"
+  );
   const data = await res.json();
   return {
     props: {

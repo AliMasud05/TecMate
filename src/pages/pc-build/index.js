@@ -45,8 +45,8 @@ const PcBuildPage = () => {
             <p className="mt-1 text-sm text-black">Processor</p>
           </div>
           <div>
-            <div role="status" class="max-w-sm animate-pulse">
-              <div class="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
+            <div role="status" className="max-w-sm animate-pulse">
+              <div className="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
             </div>
           </div>
 
@@ -89,8 +89,8 @@ const PcBuildPage = () => {
             <p className="mt-1 text-sm text-black">Motherboard</p>
           </div>
           <div>
-            <div role="status" class="max-w-sm animate-pulse">
-              <div class="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
+            <div role="status" className="max-w-sm animate-pulse">
+              <div className="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
             </div>
           </div>
 
@@ -135,8 +135,8 @@ const PcBuildPage = () => {
             <p className="mt-1 text-sm text-black">Ram</p>
           </div>
           <div>
-            <div role="status" class="max-w-sm animate-pulse">
-              <div class="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
+            <div role="status" className="max-w-sm animate-pulse">
+              <div className="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
             </div>
           </div>
 
@@ -179,8 +179,8 @@ const PcBuildPage = () => {
             <p className="mt-1 text-sm text-black">PSU</p>
           </div>
           <div>
-            <div role="status" class="max-w-sm animate-pulse">
-              <div class="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
+            <div role="status" className="max-w-sm animate-pulse">
+              <div className="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
             </div>
           </div>
 
@@ -223,8 +223,8 @@ const PcBuildPage = () => {
             <p className="mt-1 text-sm text-black">Storage</p>
           </div>
           <div>
-            <div role="status" class="max-w-sm animate-pulse">
-              <div class="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
+            <div role="status" className="max-w-sm animate-pulse">
+              <div className="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
             </div>
           </div>
 
@@ -267,8 +267,8 @@ const PcBuildPage = () => {
             <p className="mt-1 text-sm text-black">Monitor</p>
           </div>
           <div>
-            <div role="status" class="max-w-sm animate-pulse">
-              <div class="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
+            <div role="status" className="max-w-sm animate-pulse">
+              <div className="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
             </div>
           </div>
 
@@ -311,8 +311,8 @@ const PcBuildPage = () => {
             <p className="mt-1 text-sm text-black">Others</p>
           </div>
           <div>
-            <div role="status" class="max-w-sm animate-pulse">
-              <div class="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
+            <div role="status" className="max-w-sm animate-pulse">
+              <div className="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
             </div>
           </div>
           <button

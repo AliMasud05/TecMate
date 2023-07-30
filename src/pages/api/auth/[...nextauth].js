@@ -15,7 +15,7 @@ export const authOptions = {
     }),
   ],
   pages: {
-    signIn: "/login"
+    signIn: "https://pc-builder-navy-rho.vercel.app/login"
   }
 };
 

@@ -1,4 +1,3 @@
-
 import ProductCard from "@/components/ui/ProductCard";
 
 const MotherboardPage = ({ motherboard }) => {
@@ -20,7 +19,7 @@ export default MotherboardPage;
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "http://localhost:5000/products?category=motherboard"
+    "https://pc-builder-hi41.onrender.com/products?category=motherboard"
   );
   const data = await res.json();
   return {

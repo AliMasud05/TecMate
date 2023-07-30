@@ -1,4 +1,4 @@
-import { Button } from "antd";
+
 import React, { useState } from "react";
 import HomeSlider from "@/components/ui/Slider";
 import ProductCard from "@/components/ui/ProductCard";
@@ -10,7 +10,7 @@ const HomePage = ({ allProducts }) => {
       <HomeSlider />
 
       <div className="mt-10">
-        <h2 className="text-center text-lg font-semibold mb-1">
+        <h2 className="text-center text-2xl font-semibold mb-1">
           Featured Products
         </h2>
         <p className="text-center mb-3">Check & Get Your Desired Product!</p>
@@ -22,7 +22,7 @@ const HomePage = ({ allProducts }) => {
       </div>
 
       <div className="p-4">
-        <h2 className="text-center text-lg font-semibold mb-1 mt-5">
+        <h2 className="text-center text-2xl font-semibold mb-1 mt-5">
           Featured Category
         </h2>
         <p className="text-center mb-3">
@@ -37,7 +37,9 @@ const HomePage = ({ allProducts }) => {
 export default HomePage;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products?featured=true");
+  const res = await fetch(
+    "https://pc-builder-hi41.onrender.com/products?featured=true"
+  );
   const data = await res.json();
   return {
     props: {

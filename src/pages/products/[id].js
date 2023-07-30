@@ -58,13 +58,13 @@ const ProductDetailPage = ({ product }) => {
 
   return (
     <div className="p-3 mt-5 md:mt-10 container mx-auto min-h-screen">
-      <div class="xl:flex">
-        <div class="xl:flex-1">
+      <div className="xl:flex">
+        <div className="xl:flex-1">
           <div className="flex-1 relative w-full max-w-sm h-80 mx-auto">
             <Image className="object-cover" fill={true} src={image} alt="" />
           </div>
         </div>
-        <div class="xl:flex-1">
+        <div className="xl:flex-1">
           <h2 className="text-lg md:text-2xl font-semibold text-violet-600">
             {name}
           </h2>
@@ -135,7 +135,7 @@ const ProductDetailPage = ({ product }) => {
 export default ProductDetailPage;
 
 export async function getStaticPaths() {
-  const res = await fetch(`http://localhost:5000/products`);
+  const res = await fetch(`https://pc-builder-hi41.onrender.com/products`);
   const products = await res.json();
   return {
     paths: products.map((product) => ({
@@ -147,10 +147,10 @@ export async function getStaticPaths() {
 
 export const getStaticProps = async (context) => {
   const { id } = context.params;
-  console.log(context, 56);
-  const res = await fetch(`http://localhost:5000/products/${id}`);
+  const res = await fetch(
+    `https://pc-builder-hi41.onrender.com/products/${id}`
+  );
   const data = await res.json();
-  console.log(data);
   return {
     props: {
       product: data,

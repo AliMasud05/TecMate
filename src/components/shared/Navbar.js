@@ -7,7 +7,6 @@ import Image from "next/image";
 
 const Navbar = () => {
   const { data: session } = useSession();
-  console.log(session);
   const items = [
     {
       key: "1",
