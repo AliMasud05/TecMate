@@ -24,12 +24,12 @@ const createSVGIcon = () => (
 
 const PcBuildPage = () => {
   const router = useRouter();
-  const { cpu, motherboard, ram, psu, storage, others, monitor } = useSelector(
+  const { cpu, motherboard, ram, psu, storage, monitor } = useSelector(
     (state) => state.pcBuild
   );
 
   const isDataFulfilled = () => {
-    return cpu && motherboard && ram && psu && storage && monitor && others;
+    return cpu && motherboard && ram && psu && storage && monitor
   };
   return (
     <div className="flex justify-center mx-auto w-full max-w-xl border-gray-300 mt-5 border p-2 shadow-md rounded-md mb-10">
@@ -298,49 +298,6 @@ const PcBuildPage = () => {
                 </div>
                 <p className="text-red-500 font-medium whitespace-nowrap">
                   {monitor.price} /-
-                </p>
-              </div>
-            </div>
-          </div>
-        )}
-        <div className="border-b w-full border-gray-300 my-1"></div>
-
-        <div className="flex justify-between items-center gap-2  p-2">
-          <div className=" text-violet-600 shadow-gray-400 flex flex-col w-full max-w-[90px] items-center rounded-md transition-all duration-200 cursor-pointer">
-            <BsThreeDots size={25} />
-            <p className="mt-1 text-sm text-black">Others</p>
-          </div>
-          <div>
-            <div role="status" className="max-w-sm animate-pulse">
-              <div className="h-6 bg-gray-200 rounded-md dark:bg-gray-300 w-36 md:w-64 lg:w-96"></div>
-            </div>
-          </div>
-          <button
-            onClick={() => router.push("/select/others")}
-            className="bg-violet-600 font-medium text-xs text-white py-1 cursor-pointer px-3 rounded-full"
-          >
-            Select
-          </button>
-        </div>
-        {others && (
-          <div className="flex justify-between items-center gap-2  p-2">
-            <div className="flex items-center w-full">
-              <div className="flex flex-col w-full max-w-[90px] items-center rounded-md transition-all duration-200">
-                <Image src={others?.image} height={35} width={35} />
-              </div>
-              <div className="flex justify-between w-full gap-3">
-                <div>
-                  <p className="font-medium">{others.name}</p>
-                  <p className="flex">
-                    {Array.from({ length: others?.rating }).map((_, index) => (
-                      <span className="" key={index}>
-                        {createSVGIcon()}
-                      </span>
-                    ))}
-                  </p>
-                </div>
-                <p className="text-red-500 font-medium whitespace-nowrap">
-                  {others.price} /-
                 </p>
               </div>
             </div>

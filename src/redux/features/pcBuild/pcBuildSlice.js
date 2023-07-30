@@ -7,7 +7,6 @@ const initialState = {
   psu: undefined,
   storage: undefined,
   monitor: undefined,
-  others: undefined,
 };
 
 const pcBuildSlice = createSlice({
@@ -27,8 +26,6 @@ const pcBuildSlice = createSlice({
         state.storage = action.payload;
       } else if (action.payload.category === "monitor") {
         state.monitor = action.payload;
-      } else if (action.payload.category === "others") {
-        state.others = action.payload;
       }
     },
   },
