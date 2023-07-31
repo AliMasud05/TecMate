@@ -1,8 +1,9 @@
-## Live Link [http://localhost:3000/]
+** Live Link== [https://tec-mate-y2mu.vercel.app/]
 
-## Description
+** Description
+This is pc building website here use choose their best product and make a personal computer.
+Here i use github and google authentication
 
-It is a PC builder website, here user can come and build a PC by choosing the components as per his own wish. Added login system. User can see all details of any product and if he wants to build pc then he has to login because pc build page is protected.You can view products of different categories from the top navbar or from your featured category.
 
 ## Note
 
