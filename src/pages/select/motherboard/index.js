@@ -1,5 +1,4 @@
 import SelectProductCard from "@/components/ui/SelectProductCard";
-import React from "react";
 
 const SelectMotherboardPage = ({ motherboard }) => {
   return (
@@ -20,7 +19,7 @@ export default SelectMotherboardPage;
 
 export const getServerSideProps = async () => {
   const res = await fetch(
-    "https://pc-builder-hi41.onrender.com/products?category=motherboard"
+    "http://localhost:5000/products?category=motherboard"
   );
   const data = await res.json();
   return {

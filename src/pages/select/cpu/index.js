@@ -1,6 +1,4 @@
-import Navbar from "@/components/shared/Navbar";
 import SelectProductCard from "@/components/ui/SelectProductCard";
-import React from "react";
 
 const SelectCpuPage = ({ processors }) => {
   return (
@@ -22,9 +20,7 @@ const SelectCpuPage = ({ processors }) => {
 export default SelectCpuPage;
 
 export const getServerSideProps = async () => {
-  const res = await fetch(
-    "https://pc-builder-hi41.onrender.com/products?category=cpu"
-  );
+  const res = await fetch("http://localhost:5000/products?category=cpu");
   const data = await res.json();
   return {
     props: {

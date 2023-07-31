@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
-import React from "react";
 
 const ProductDetailPage = ({ product }) => {
   const router = useRouter();
@@ -135,7 +134,7 @@ const ProductDetailPage = ({ product }) => {
 export default ProductDetailPage;
 
 export async function getStaticPaths() {
-  const res = await fetch(`https://pc-builder-hi41.onrender.com/products`);
+  const res = await fetch(`http://localhost:5000/products`);
   const products = await res.json();
   return {
     paths: products.map((product) => ({
@@ -147,9 +146,7 @@ export async function getStaticPaths() {
 
 export const getStaticProps = async (context) => {
   const { id } = context.params;
-  const res = await fetch(
-    `https://pc-builder-hi41.onrender.com/products/${id}`
-  );
+  const res = await fetch(`http://localhost:5000/products/${id}`);
   const data = await res.json();
   return {
     props: {

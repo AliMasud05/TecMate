@@ -1,0 +1,568 @@
+[
+  {
+    "_id": "64c3dc191cf48ca6283edfdf",
+    "name": "Intel 10th Gen Core i3 10100F Processor",
+    "category": "cpu",
+    "price": 8200,
+    "description": "This processor comes with a new breed that come without an integrated GPU, so a separate graphics card is required for its functionality. This new 10th gen Comet Lake microarchitecture is manufactured with the 14nm process that comes with four cores but lacks in HyperThreading. As this chip is updated to the latest BIOS revision, it nicely fits into any Intel 300-series motherboard. Focusing on this, all the major motherboard manufacturers have already started BIOS updates for their 300-series lineup",
+    "status": "outOfStock",
+    "rating": "4",
+    "averageRating": "3",
+    "keyFeatures": [
+      "Model: Intel Core i3 10100F",
+      "Socket Supported FCLGA1200",
+      "Speed 3.60 up to 4.30 GHz",
+      "Cores- 4 & Threads- 8",
+      "6M Intel Smart Cache"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c3dc9267919b4be37ef598",
+    "name": "AMD Ryzen 9 7950X Processor",
+    "category": "cpu",
+    "price": 69800,
+    "description": "The AMD Ryzen 9 7950X is a 16-core CPU featuring Zen4 microarchitecture. It reportedly features two Durango CCDs with 16 cores codenamed “Persephone”. The leaker claims that the battle for the top CPUs will be between 7950X’s 5.85 GHz and i9-13900K supposedly boosting up to 5.8 GHz with Thermal Velocity Boost. The sample that was described by “Venom” is not the top bin CPU.",
+    "status": "inStock",
+    "rating": "3",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: Ryzen 9 7950X",
+      "Clock Speed: 4.5GHz Up to 5.7GHz",
+      "Cores: 16, Threads: 32",
+      "L2 Cache: 16MB, L3 Cache: 64MB",
+      "Socket: AM5"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-7950x/ryzen-9-7950x-01-500x500.webp",
+    "featured": true
+  },
+  {
+    "_id": "64c3dde5ee60f08589bb1e46",
+    "name": "MSI MEG X670E ACE DDR5 AMD AM5 E-ATX",
+    "category": "motherboard",
+    "price": 97000,
+    "description": "The MSI MEG X670E ACE Motherboard supports AMD's Ryzen 7000-series processors with up to 16 Zen 4 cores as well as dual-channel DDR5 memory, Maximum Memory Capacity of up to 128GB. It features a 22+2+1 phases power design with 90A Power Stage and dual CPU power connectors ready to unleash the maximum performance. It has a stacked Fin Array, Direct Touch VRM Heat-pipe, MOSFET Baseplate, 7W/mK thermal pads, double-sided M.2 Shield Frozr, and Frozr AI software to ensure extreme performance with low temperature. The motherboard is made of an 8 Layer PCB with 2oz Thickened Copper that provides higher performance and long-lasting system stability without any compromise. The MSI MEG X670E ACE offers onboard and exclusive M.2 XPANDER-Z GEN5 DUAL PCI-Express card offer totally sextuple M.2 connectors for maximum storage performance. It can deliver a lightning-fast game experience with PCIe 5.0 slots, Lightning Gen 5 x4 M.2, Front USB 3.2 Gen 2x2 20G with 60W USB Power Delivery. The double-sided Shield Frozr design keeps M.2 SSDs safe while preventing throttling, making them run faster. The rear I/O panel now offers easy ways of directly entering the safe boot, a one-click toggle for all RGB lights, and directly activating Turbo mode. The MSI MEG X670E ACE Motherboard offers 2x PCIe Gen 5 x16 slots and 4x M.2 slots. The MEG series offers a stacked fin array heatsink and a heatpipe along with a MOSFET baseplate for effective heat dissipation from the VRMs. The MSI MEG X670E ACE comes with 3 years of warranty.",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "5",
+    "keyFeatures": [
+      "Model: MEG X670E ACE",
+      "Supported CPU: Ryzen 7000 Series Processors for Socket AM5",
+      "Supported RAM: 4x DDR5, Max 128GB",
+      "Graphics Output: 1x Type-C Display port",
+      "Features: 10G Super LAN with Wi-Fi 6E solution"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/meg-x670e-ace/meg-x670e-ace-01-500x500.webp",
+    "featured": true
+  },
+  {
+    "_id": "64c3e004ee60f08589bb1e47",
+    "name": "Intel Core i9-12900KS 12th Gen Alder Lake Processor",
+    "category": "cpu",
+    "price": 73500,
+    "description": "The Intel Core i9-12900KS 12th Gen Processor comes with 16 cores (eight Performance-cores and eight Efficient-cores) and 24 threads, and up to 5.5 GHz max turbo frequency, 150W processor base power, and 30MB Intel Smart Cache for even more gaming power and performance. Based on Intelâ€™s 12th Gen performance hybrid architecture, this processor can hit 5.5 GHz on up to two cores for the first time, giving the most extreme gamers the ability to maximize performance. The Intel Core i9-12900KS features Intel Adaptive Boost Technology for improved gaming performance by opportunistically allowing higher multi-core turbo frequencies. It comes with 2 memory channels and offers support for up to DDR5 4800 MT/s and DDR4 3200 MT/s RAM. The Core i9-12900KS processor allows gamers and overclocking enthusiasts to take performance to the next level. Based on its max turbo frequency of 5.5 GHz, it is the worldâ€™s fastest desktop processor. The CPU comes with Intel UHD Graphics 770 and it has a base frequency of 300 MHz with a dynamic frequency of 1.55 GHz. This processor offers eDP 1.4b, DP 1.4a, and HDMI 2.1 graphics output options. The latest Intel 12th Gen i9-12900KS Processor comes with 3 years of warranty (No Warranty for Fan or Cooler).",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: Core i9-12900KS",
+      "Clock Speed: 2.40 GHz up to 5.20 GHz",
+      "Cache: 30 MB, Socket: LGA 1700",
+      "CPU Cores: 16, CPU Threads: 24",
+      "GPU: Intel UHD Graphics 770"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/intel/i9-12900ks/i9-12900ks-01-500x500.jpg",
+    "featured": true
+  },
+  {
+    "_id": "64c4433163ff060141398963",
+    "name": "TEAM T-FORCE DELTA RGB 32GB (16GBx2)",
+    "category": "ram",
+    "price": 47700,
+    "description": "The TEAM T-FORCE DELTA RGB DDR5 Desktop Gaming RAM comes with 32GB (16GBx2) capacity and 7600MHz  Speed. The RAM features RGB Colors & 120° Ultra-Wide Lighting, Power Management ICs (PMIC) Equipped for Stable, Efficient Power Usage Strengthened PMIC Cooling Design, and On-die ECC for Stable systems. This Gaming RAM supports Intel XMP3.0 for One-Click Overclocking. This RAM has High-Quality ICs Selected for Stability & Reliability. The TEAM T-FORCE DELTA RGB Desktop Gaming RAM is equipped with Smart RGB IC Controller that Supports Various Lighting Effect Software.",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "3",
+    "keyFeatures": [
+      "MPN: FF3D532G7600HC36DDC01",
+      "Model: T-FORCE DELTA RGB DDR5",
+      "RGB Colors & 120° Ultra-Wide Lighting",
+      "Supports Intel XMP3.0 for One-Click Overclocking",
+      "Strengthened PMIC Cooling Design"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/team/delta-rgb/delta-rgb-01-500x500.webp",
+    "featured": true
+  },
+  {
+    "_id": "64c4448e63ff060141398964",
+    "name": "Asus ROG MAXIMUS Z690 FORMULA 12th Gen ATX Motherboard",
+    "category": "motherboard",
+    "price": 59200,
+    "description": "The Asus ROG MAXIMUS Z690 FORMULA 12th Gen ATX Motherboard supports Socket LGA1700 for 12th Gen Intel Core, Pentium Gold & Celeron Processors. It features ASUS-exclusive tools including AI Overclocking, AI Cooling, AI Networking, and Two-Way AI Noise-Cancelation for easy configuration. It has 24+1 teamed power stages rated for 105 A, ProCool II power connectors, MicroFine alloy chokes, and premium metallic capacitors. 24+1 teamed power stages rated for 105 A, ProCool II power connectors, MicroFine alloy chokes, and premium metallic capacitors. It comes with onboard Wi-Fi 6E, Marvell AQtion 10Gb, Intel 2.5Gb Ethernet, and ASUS LANGuard. It delivers the fastest Gaming Connectivity: PCIe 5.0, Gen 5 M.2 slots, USB 3.2 Gen 2x2 front-panel connector with Thunderbolt 4 support, and rear triple USB Type-C ports. It also has ROG SupremeFX ALC4082 codec with ESS ES9018Q2C DAC for high-fidelity audio. The Asus ROG MAXIMUS Z690 FORMULA comes with 3 years of warranty.",
+    "status": "inStock",
+    "rating": "4",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: ROG MAXIMUS Z690 FORMULA",
+      "LGA 1700 for 12th Gen Intel Core, Pentium Gold, and Celeron processors",
+      "20+1 teamed power stages rated for105 A",
+      "Onboard WiFi 6E, Marvell AQtion 10 Gb Ethernet",
+      "PCIe 5.0, dual Gen 4 M.2 onboard"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asus/rog-maximus-z690-formula/rog-maximus-z690-formula-01-500x500.jpg",
+    "featured": true
+  },
+  {
+    "_id": "64c4460663ff060141398965",
+    "name": "Cooler Master XG850 Plus Platinum Full Modular ARGB 850W",
+    "category": "psu",
+    "price": 23000,
+    "description": "The XG850 Plus Platinum is Cooler Master’s first in-house engineered platform, built to give rated efficiency and high-end performance. It has an ARGB 135mm quiet fan and full-modular cabling with in-line capacitors. The built-in Information Display Panel can easily handle ARGB effects, monitor real-time performance, and is compatible with MasterPlus+ software. The release of the XG Plus Platinum is the result of years of work and the start of a new era for Cooler Master power supplies. With this product series, Cooler Master introduces its first generation of internally developed power supply systems. Cooler Master is able to provide a completely new class of high-efficiency products thanks to this technology. This power supply unit can give a top-tier performance with minimal ripple noise thanks to the use of 100% Japanese capacitors.",
+    "status": "inStock",
+    "rating": "4",
+    "averageRating": "4",
+    "keyFeatures": [
+      "MPN: MPG-8501-AFBAP-XUK",
+      "Model: XG850 Plus Platinum",
+      "Intel ATX 12V Version 2.53",
+      "80 PLUS Platinum Certified",
+      "Quiet ARGB 135mm silent Fan"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/cooler-master/xg850-plus-platinum/xg850-plus-platinum-01-500x500.webp",
+    "featured": true
+  },
+  {
+    "_id": "64c446ad63ff060141398966",
+    "name": "Samsung 990 Pro 2TB PCIe 4.0 M.2 NVMe SSD",
+    "category": "storage",
+    "price": 18000,
+    "description": "The Samsung 990 Pro 2TB SSD Reaches the maximum PCIe 4.0 performance. Longer-lasting, opponent-blasting speed. The in-house controller's sophisticated heat control ensures superlative power efficiency while maintaining furious speed and performance to keep you at the top of your game at all times. Its huge speed boost, 40% and 55% higher random read/write rates than 980 PRO - up to 1400K/1650K IOPS, while sequential read/writes speeds up to 7450/6900 MB/s get near PCIe 4.0 top performance. Fly high in gaming, video and 3D editing, data analysis, and other areas. Speed past the heat. The nickel-coated controller and cutting-edge thermal control algorithm regulate the heat for consistent performance. The heat spreader label regulates NAND chip heat, while Dynamic Thermal Guard maintains temperatures stable. The Samsung 990 Pro 2TB PCIe 4.0 M.2 NVMe SSD comes with a 03-year warranty.",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "5",
+    "keyFeatures": [
+      "Model: 990 Pro",
+      "Capacity: 2TB, Form Factor M.2",
+      "Interface Type: PCIe Gen 4.0, NVMe 2.0",
+      "Read Speed: Up to 7,450 MB/s",
+      "Write Speed: Up to 6,900 MB/s"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/990-pro-2tb/990-pro-2tb-01-500x500.webp",
+    "featured": true
+  },
+  {
+    "_id": "64c447b763ff060141398967",
+    "name": "Samsung Odyssey G7 C32G75TQSW 32'' G-Sync 240Hz",
+    "category": "monitor",
+    "price": 18000,
+    "description": "The Samsung Odyssey G7 C32G75TQSW gaming monitor is designed to give an immersive and fluid gaming experience. The monitor has a curvature of 1000R and a screen size of 31.5 inches (80.0 cm), giving the impression that you are in the heart of the action. The monitor's active display size is 697.344 x 392.256mm, offering you plenty of screen real estate to work with. Most monitors have a 16:9 aspect ratio, which provides a large viewing area for gaming, video playback, and other multimedia content. The monitor has a VA panel with a usual brightness of 350",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: Odyssey G7 C32G75TQSW",
+      "Resolution: WQHD (2560 x 1440)",
+      "Display: VA, 240Hz, 1ms GTG",
+      "Ports: HDMI, DP, USB",
+      "Features: G-Sync, Flicker Free, 1000R Screen Curvature"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/samsung/c32g75tqsw/c32g75tqsw-01-500x500.webp",
+    "featured": true
+  },
+  {
+    "_id": "64c4486f63ff060141398968",
+    "name": "Asus ROG Strix GeForce RTX 3090 White OC Edition 24GB GDDR6X Graphics Card",
+    "category": "others",
+    "price": 170000,
+    "description": "The Asus ROG Strix GeForce RTX 3090 White OC Edition has a buffed-up design with chart-topping thermal performance. This limited edition of the ROG Strix GeForce RTX 3090 features a completely white colorway on top of all the generational improvements to the ROG Strix series. It is featured with the building blocks which is the worldâ€™s fastest, most efficient GPU, the all-new Ampere SM brings 2X the FP32 throughput and improved power efficiency. It comes with 2nd Generation RT Cores and 3rd Generation Tensor Cores. It offers Boost Clock 1890 MHz",
+    "status": "inStock",
+    "rating": "4",
+    "averageRating": "4",
+    "keyFeatures": [
+      "MPN: ROG-STRIX-RTX3090-O24G-WHITE",
+      "Model: ROG Strix GeForce RTX 3090 White OC Edition",
+      "Boost Clock 1890 MHz (OC mode)/1860 MHz (Gaming mode)",
+      "2nd Gen RT Cores & 3rd Gen Tensor Cores",
+      "Axial-tech fan design & 9-slot design"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/asus/rog-strix-rtx-3090-white-oc/rog-strix-rtx-3090-white-oc-01-500x500.jpg",
+    "featured": true
+  },
+  {
+    "_id": "64c4492a63ff060141398969",
+    "name": "Thermaltake Level 20 Tempered Glass Edition Full-Tower RGB Gaming Case",
+    "category": "others",
+    "price": 86500,
+    "description": "The Thermaltake Level 20 Tempered Glass Edition Full-Tower Gaming Case features an E-ATX full tower chassis with three tempered glass panes and three 140mm Riing Plus 14 RGB fans that come pre-installed. The Thermaltake Gaming Case features a ventilation-focused, trio-chamber design with tempered glass and a tool-less locking mechanism, quick transmission (USB Type-C and USB 3.0), TT Premium Gaming PCI-E 3.0 Riser Cable, and integration with cutting-edge' TT RGB PLUS software/voice-controlled with as well as three built-in Riing Plus 14 LED RGB Fans",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "5",
+    "keyFeatures": [
+      "MPN: CA-1J9-00F9WN-00",
+      "Model: Level 20",
+      "Type: RGB E-ATX Full Tower",
+      "Tempered glass panel: 4mm Tempered Glass x 3 (Left)",
+      "Front Preinstalled Fans: 2x 140mm Riing Plus 14 RGB fans"
+    ],
+    "reviews": [
+      "Good Product!",
+      "nice cpu",
+      "bad cpu",
+      "average cpu",
+      "wow cool type cpu"
+    ],
+    "image": "https://www.startech.com.bd/image/cache/catalog/casing/thermaltake/level-20/level-20-01-500x500.webp",
+    "featured": true
+  },
+  {
+    "_id": "64c6737a4d92903b9d7db9bc",
+    "name": "AMD Ryzen Threadripper PRO 5965WX Processor",
+    "category": "cpu",
+    "price": 96500,
+    "description": "The AMD Ryzen Threadripper PRO 5965WX Processor features the advanced Zen 3 architecture. With 24 CPU cores and 48 threads, it offers exceptional multi-threaded performance for demanding tasks. The processor has a base clock speed of 3.8GHz and can reach a maximum boost clock of up to 4.5GHz. It comes with a generous amount of cache, including a 1.5MB L1 cache, 12MB L2 cache, and an impressive 128MB L3 cache. The default thermal design power (TDP) is 280W, ensuring efficient operation under heavy workloads. The processor is built using TSMC's 7nm FinFET process and supports overclocking for enthusiasts seeking even higher performance. It utilizes the sWRX8 CPU socket and is compatible with a single-socket configuration. The AMD Ryzen Threadripper PRO 5965WX offers excellent connectivity with PCIe 4.0 support and supports DDR4 memory with up to 3200MHz speed. It does not have integrated graphics and requires a discrete graphics card for visual output.",
+    "status": "outOfStock",
+    "rating": "5",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: Ryzen Threadripper PRO 5965WX",
+      "Speed: 3.8GHz up to 4.5GHz",
+      "Cache: L2: 12MB, L3: 128MB",
+      "Cores: 24, Threads: 48",
+      "CPU Socket: sWRX8"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-threadripper-pro-5965wx/ryzen-threadripper-pro-5965wx-01-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c674604d92903b9d7db9bd",
+    "name": "Intel 10th Gen Core i7-10700K Processor",
+    "category": "cpu",
+    "price": 31500,
+    "description": "Introducing the all-new 10th Generation Intel Core i7 10700K processor, Unlocked 10th Gen Intel Core desktop processors are optimized for enthusiast gamers, overclockers, and serious content creators looking to take advantage of amazing overclocking and unleash the performance capabilities of these new processors. With an optimal balance of frequency, cores, and threads, advanced tuning support, and blazing connectivity unlocked 10th Gen Intel Core processors supercharge desktops for a competitive edge.Intel 10th Generation Core i7-10700K Processor has a base frequency of 3.80 GHz that can be reached as max turbo frequency at 5.10 GHz. It has a SmartCache of 16 MB containing 8 cores and 16 threads. With a bus speed of 8 GT/s DMI3, it has an integrated Intel UHD Graphics 630. This internal graphics has 350 MHz of base & 1.20 GHz of max dynamic frequency and 64 GB of video max memory. Considering the memory this processor has a dual-channel of max 128GB of the size that supports up to DDR4-2666 bus speed. Experience amazing gameplay and creativity with Intel's supported platform features. Get more from your PC build by untethering with Intel Wi-Fi 6 (Gig+), versatile connectivity with Thunderbolt 3, and accelerated responsiveness with Intel Optane memory. Whether you are looking to fully experience the latest games and entertainment or boost your productivity when creating or running the latest business productivity apps, Intel's newest lineup of desktop processors delivers powerful features that empower you to do more.",
+    "status": "inStock",
+    "rating": "2",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: Core i7-10700K",
+      "Frequency: 3.80 GHz up to 5.1GHz",
+      "16M Cache",
+      "8 Core 16 Threads",
+      "Intel UHD Graphics 630"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i7-10700k/i7-10700k-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c675154d92903b9d7db9be",
+    "name": "Gigabyte X570 Aorus Xtreme DDR4 AM4 Socket AMD Motherboard",
+    "category": "motherboard",
+    "price": 45500,
+    "description": "GIGABYTE X570 motherboards based on the AMD X570 Chipset provide full support for 3rd Gen AMD Ryzenâ„¢ Processors. The all-new design is a testament to GIGABYTE's dedication to design quality. GIGABYTE X570 motherboards offer a rich list of features such as support for PCIe 4.0 and USB Type-Câ„¢ interfaces on select boards, refined audio, high speed of Ethernet and latest standard of WIFI design, to fulfill users' performance, audio, and data transfer needs. The new, advanced power and thermal design enables users to unleash the performance on AMD Ryzenâ„¢ 3000-series Processors, making the GIGABYTE X570 motherboards perfect for users looking to build the best AMD platform gaming system. Innovative design, cutting-edge function, state-of-art aesthetics, sophisticated thermal design, next generation network connection ",
+    "status": "outOfStock",
+    "rating": "5",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: Gigabyte X570 Aorus Xtreme",
+      "Supports AMD Ryzen 5000 Series/ AMD Ryzen 2nd & 3rd Generation Processors",
+      "Chipset AMD X570",
+      "Dual Channel ECC/ Non-ECC",
+      "Thermal Reactive Armor Design"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/x570-aorus-xtreme/x570-aorus-xtreme-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c6757d4d92903b9d7db9bf",
+    "name": "GIGABYTE Z790 AORUS MASTER 13th & 12th Gen E-ATX Motherboard",
+    "category": "motherboard",
+    "price": 25500,
+    "description": "The GIGABYTE Z790 AORUS MASTER E-ATX Motherboard comes with Intel Socket LGA 1700 that supports 13th and 12th Gen Series Processors. It comes with a direct 20+1+2 Phases Digital VRM Solution. The motherboard comes with 4x SMD DIMMs with XMP 3.0 Memory Module Support. It offers support for DDR5 8000(O.C) / 7950(O.C) / 7900(O.C) / 7800(O.C) / 7600(O.C.) / 7400(O.C.) / 7200(O.C.) / 7000(O.C.) / 6800(O.C.) / 6600(O.C.) / 6400(O.C.) / 6200(O.C.) / 6000(O.C.) / 5800(O.C.) / 5600(O.C.) / 5400(O.C.) / 5200(O.C.) / 4800 / 4000 memory modules.",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "5",
+    "keyFeatures": [
+      "Model: Z790 AORUS MASTER",
+      "Supported CPU: 13th Gen & 12th Gen Processors (LGA1700)",
+      "Supported RAM: 4 x DDR5 DIMMs, up to 8000(O.C)",
+      "Graphics Output: 1 x DisplayPort",
+      "Features: Marvell AQtion 10GbE LAN & Intel Wi-Fi 6E"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/gigabyte/z790-aorus-master/z790-aorus-master-01-500x500.webp",
+    "featured": false
+  },
+  {
+    "_id": "64c676144d92903b9d7db9c0",
+    "name": "Team DELTA 16GB 6200MHz DDR5 RGB Desktop RAM",
+    "category": "ram",
+    "price": 9500,
+    "description": "Team DELTA Desktop RAM comes with RGB Colors & 120Â° Ultra-Wide Lighting, Strengthened PMIC Cooling Design, On-die ECC for Stable System. This RAM supports with Intel XMP3.0 for One-Click Overclocking, you can experience ultra-fast overclocking speeds at a single click and the Power Management ICs (PMICs) Equipped for Stable, Efficient Power Usage. The High-Quality ICs Selected for Stability & Reliability. This new Team DELTA RAM equipped with Smart RGB IC Controller that Supports Various Lighting Effect Software. In this RAM, Smart RGB IC Controllers Support Various Lighting Effect Software, it is compatible with lighting effect software such as ASUS Aura Sync, GIGABYTE RGB Fusion 2.0, MSI Mystic Light Sync, ASROCK-Polychrome Sync, and BIOSTAR Advanced VIVID LED DJ and also you can synchronization it. This new desktop RAM delivers.",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "4",
+    "keyFeatures": [
+      "MPN: FF3D532G6200HC38ADC01",
+      "Model: DELTA",
+      "Supports Intel XMP3.0 for One-Click Overclocking",
+      "RGB Colors & 120Â° Ultra-Wide Lighting",
+      "Power Management ICs Equipped for Stable"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/team/delta-ddr5/delta-030-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c676914d92903b9d7db9c1",
+    "name": "G.Skill Trident Z5 RGB 16GB DDR5 5600MHz CL40 Desktop RAM Black",
+    "category": "ram",
+    "price": 10000,
+    "description": "The Trident Z5 RGB series DDR5 memory is designed for ultra-high extreme performance on next-gen DDR5 platforms. Featuring a sleeker and streamlined aluminum heat spreader design, available in metallic silver or matte black, the Trident Z5 RGB series DDR5 memory perfect choice for gamers, overclockers, content creators, and enthusiasts to build a high-performance system. This DDR5 RGB RAM brings unparalleled data transfer speeds compared to the previous generation of DDR4 memory. This RAM is designed with the highest performance and quality standards.",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "4",
+    "keyFeatures": [
+      "MPN: F5-5600U4040C16GX2-TZ5RK",
+      "Model: Trident Z5 RGB",
+      "Memory Type: DDR5, Tested Speed: 5600MHz",
+      "Tested Latency: 40-40-40-76",
+      "Tested Voltage: 1.20V"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/gskill/trident-tz5k-rgb/trident-tz5k-rgb-01-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c677324d92903b9d7db9c2",
+    "name": "Corsair VENGEANCE RGB PRO SL 32GB (2x16GB) DDR4 3600MHz C18 RAM Kit White",
+    "category": "ram",
+    "price": 14000,
+    "description": "The VENGEANCE RGB PRO SL 32GB DDR4 3600MHz RAM Kit from Corsair has dynamic multi-zone RGB lighting. Ten individually controllable, ultra-bright RGB LEDs per module provide vibrant, dynamic illumination for your system. Pre-programmed lighting profiles Choose from a variety of lighting settings or develop your own using the CORSAIR iCUE program. Slim and elegant design With a height of only 44mm, it's compatible with a broad range of air coolers, including the CORSAIR A500. Maximum Bandwidth and Fast Response Times On the newest Intel and AMD DDR4 motherboards, optimized for maximum bandwidth and fast response times. Provides the finest signal quality for the highest degree of performance",
+    "status": "outOfStock",
+    "rating": "5",
+    "averageRating": "5",
+    "keyFeatures": [
+      "MPN: CMH32GX4M2D3600C18W",
+      "Model: VENGEANCE RGB PRO SL 32GB RAM Kit",
+      "Memory Type: DDR4",
+      "Memory Size: 32GB (2 x 16GB)",
+      "Number of Pins: 288 Pin"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/cosair/vengeance-rgb-pro-sl-32gb/vengeance-rgb-pro-sl-32gb-01-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c677c94d92903b9d7db9c3",
+    "name": "ASUS ROG THOR 1600T 1600W 80Plus Titanium Full Modular Power Supply",
+    "category": "psu",
+    "price": 10000,
+    "description": "The ASUS ROG THOR 1600T is a high-performance power supply designed for extreme gaming and computing setups. It is equipped with top-of-the-line features and premium components to deliver maximum power efficiency, superior cooling, and reduced noise levels. To achieve the prestigious 80 Plus Titanium Certification, the power supply is constructed with 100% Japanese capacitors and other high-quality components. This ensures exceptional power efficiency and reliability, making it an ideal choice for power-hungry systems. The ROG THOR 1600T is its ROG heatsinks, which cover critical components and contribute to lower temperatures. By effectively dissipating heat, these heatsinks not only enhance the power supply's performance but also help to minimize operational noise. The power supply is equipped with a 135mm Axial-tech fan that features PWM control. ",
+    "status": "outOfStock",
+    "rating": "5",
+    "averageRating": "5",
+    "keyFeatures": [
+      "MPN: ROG-THOR-1600T-GAMING",
+      "Model: ROG THOR 1600T",
+      "Capacity: 1600W",
+      "80+ Platinum certification for energy efficiency",
+      "Lambda A++ Certification"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/asus/rog-thor-1600t/rog-thor-1600t-01-500x500.webp",
+    "featured": false
+  },
+  {
+    "_id": "64c678314d92903b9d7db9c4",
+    "name": "ASUS ROG THOR 850P 80+ Platinum Power Supply",
+    "category": "psu",
+    "price": 27850,
+    "description": "The ASUS ROG THOR 1600T is a high-performance power supply designed for extreme gaming and computing setups. It is equipped with top-of-the-line features and premium components to deliver maximum power efficiency, superior cooling, and reduced noise levels. To achieve the prestigious 80 Plus Titanium Certification, the power supply is constructed with 100% Japanese capacitors and other high-quality components. This ensures exceptional power efficiency and reliability, making it an ideal choice for power-hungry systems. The ROG THOR 1600T is its ROG heatsinks, which cover critical components and contribute to lower temperatures. By effectively dissipating heat, these heatsinks not only enhance the power supply's performance but also help to minimize operational noise. The power supply is equipped with a 135mm Axial-tech fan that features PWM control. ",
+    "status": "inStock",
+    "rating": "4",
+    "averageRating": "5",
+    "keyFeatures": [
+      "Model: ROG THOR 850P",
+      "80+ Platinum certification for energy efficiency",
+      "Built with 100% Japanese capacitors",
+      "OLED Power Display",
+      "IP5X dust-resistance"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/asus/rog-thor-850p/rog-thor-850p-box-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c679814d92903b9d7db9c5",
+    "name": "Silicon Power 2TB M.2 PCIe NVMe Gen3x4 SSD",
+    "category": "storage",
+    "price": 25850,
+    "description": "Silicon Power SSD comes with PCIe Gen 3x4 interface with read speeds up to 3,400MB/s and write speeds up to 3,000MB/s. In this SSD, NVMe 1.3 support allows for higher performance, lower latency, and lower power consumption. It is also equipped with 3D QLC NAND storage technology for larger capacity and higher performance on a small form factor. this SSD is available in 3 storage capacity options: 500GB, 1TB, and 2TB.",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "5",
+    "keyFeatures": [
+      "MPN: SP02KGBP34UD7005",
+      "Model: M.2 PCIe NVMe Gen3x4",
+      "Interface: PCIe Gen 3x4",
+      "Dual Self-Cooling System",
+      "3D QLC NAND"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/silicon-power/nvme-ssd/2tb-nvme-ssd-001-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c67ab44d92903b9d7db9c6",
+    "name": "Seagate IronWolf 125 500GB 2.5-inch SATA III SSD",
+    "category": "storage",
+    "price": 14850,
+    "description": "The Seagate IronWolf 125 500GB 2.5-inch SATA III SSD is designed for demanding workloads and multi-user NAS settings, and it provides powerhouse performance with 24/7, always-on capabilities. This 500GB SSD is compatible with Windows 10, 8.1, and Unix and features a SATA III 6 Gb/s interface, a 2.5 / 7mm form factor, sustained sequential read rates of up to 560 MB/s, and sustained sequential write speeds of up to 540 MB/s. It's IronWolf 125 SSD also boasts an MTBF rating of 1.8 million hours, 1 in 1017 non-recoverable read errors per bit read, a Total Bytes Written (TBW) capacity of up to 700TB, and 3D TLC NAND flash memory.",
+    "status": "inStock",
+    "rating": "2",
+    "averageRating": "3",
+    "keyFeatures": [
+      "Model: IronWolf 125",
+      "Capacity: 500GB",
+      "Interface: SATA III, 6.0 GB/s",
+      "Form Factor: 2.5 inch",
+      "Sequential R/W: 560MB/s / 540MB/s"
+    ],
+    "reviews": ["wow type cpu", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/seagate/ironwolf-125-500gb/ironwolf-125-500gb-01-500x500.webp",
+    "featured": false
+  },
+  {
+    "_id": "64c67bf74d92903b9d7db9c7",
+    "name": "LG 34GN850-B 34-Inch Curved UltraGear Nano IPS 144Hz Gaming Monitor",
+    "category": "monitor",
+    "price": 44850,
+    "description": "LG 34GN850-B Gaming Monitor featured with 34-inch UltraWide QHD (3440x1440) Curved, Nano IPS 1ms (GtG), VESA DisplayHDR 400, NVIDIA G-SYNC Compatible and 144Hz Refresh Rate(160Hz - Overclock). This LG UltraGear, the most powerful gaming monitor for winning, ensures you get on the wings of victory. It comes with IPS 1ms comparable to TN speed, providing the minimized afterimage and a fast response time that helps you to raise your winning rate.",
+    "status": "inStock",
+    "rating": "5",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: 34GN850-B",
+      "Resolution: QHD (3440x1440)",
+      "Display: IPS, 144Hz, 1ms GtG",
+      "Ports: 2x HDMI, 1xDP, 3x USB, Headphone Out",
+      "Features: G-Sync, Free Sync"
+    ],
+    "reviews": ["wow type product", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/asus/34gn850-b/34gn850-b-05-500x500.jpg",
+    "featured": false
+  },
+  {
+    "_id": "64c67cd84d92903b9d7db9c8",
+    "name": "ViewSonic XG270QG 27 2K QHD 165Hz Nano IPS Gaming Monitor",
+    "category": "monitor",
+    "price": 109000,
+    "description": "The ViewSonic XG270QG 27 2k QHD Gaming Monitor should be as inspiring as your adventures. It should give you the best experience power possible, without dominating your desktop. From a blazing fast 1ms (GtG) response time to vibrant IPS Nano Colour technology, The monitor brings that level of excitement to reality. By uniting the core principles of our engineering philosophy, gamer-driven innovation, and minimalist design, The ViewSonic XG270QG is equipped to be your next Gaming monitor.",
+    "status": "inStock",
+    "rating": "4",
+    "averageRating": "4",
+    "keyFeatures": [
+      "Model: XG270QG",
+      "Resolution: QHD (2560 x 1440)",
+      "Display: IPS, LED, 1ms",
+      "Ports: HDMI, 3.5mm Audio, USB 3.2",
+      "Features: Speaker, Flicker-Free, Low Blue Light"
+    ],
+    "reviews": ["wow type product", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/viewsonic/xg270qg/XG270QG-01-500x500.webp",
+    "featured": false
+  },
+  {
+    "_id": "64c67d854d92903b9d7db9c9",
+    "name": "GIGABYTE AORUS GeForce RTX 4090 MASTER 24GB GDDR6X Graphics Card",
+    "category": "others",
+    "price": 109000,
+    "description": "The ViewSonic XG270QG 27 2k QHD Gaming Monitor should be as inspiring as your adventures. It should give you the best experience power possible, without dominating your desktop. From a blazing fast 1ms (GtG) response time to vibrant IPS Nano Colour technology, The monitor brings that level of excitement to reality. By uniting the core principles of our engineering philosophy, gamer-driven innovation, and minimalist design, The ViewSonic XG270QG is equipped to be your next Gaming monitor.",
+    "status": "inStock",
+    "rating": "4",
+    "averageRating": "4",
+    "keyFeatures": [
+      "MPN: GV-N4090AORUS-M-24GD",
+      "Model: AORUS GeForce RTX 4090 MASTER 24G",
+      "NVIDIA Ada Lovelace Streaming Multiprocessors",
+      "4th Gen Tensor Cores, 3rd Gen RT Cores",
+      "Memory Bus: 384 bit, Card Bus: PCI-E 4.0"
+    ],
+    "reviews": ["wow type product", "valo ace"],
+    "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/gigabyte/aorus-geforce-rtx-4090-master-24g/aorus-geforce-rtx-4090-master-24g-01-500x500.webp",
+    "featured": false
+  }
+]

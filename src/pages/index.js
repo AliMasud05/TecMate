@@ -1,8 +1,6 @@
-
-import React, { useState } from "react";
-import HomeSlider from "@/components/ui/Slider";
-import ProductCard from "@/components/ui/ProductCard";
 import FeaturedCategory from "@/components/ui/FeaturedCategory";
+import ProductCard from "@/components/ui/ProductCard";
+import HomeSlider from "@/components/ui/Slider";
 
 const HomePage = ({ allProducts }) => {
   return (
@@ -37,9 +35,7 @@ const HomePage = ({ allProducts }) => {
 export default HomePage;
 
 export const getStaticProps = async () => {
-  const res = await fetch(
-    "https://pc-builder-hi41.onrender.com/products?featured=true"
-  );
+  const res = await fetch("http://localhost:5000/products?featured=true");
   const data = await res.json();
   return {
     props: {

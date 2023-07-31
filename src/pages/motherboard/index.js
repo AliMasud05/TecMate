@@ -19,7 +19,7 @@ export default MotherboardPage;
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "https://pc-builder-hi41.onrender.com/products?category=motherboard"
+    "http://localhost:5000/products?category=motherboard"
   );
   const data = await res.json();
   return {
