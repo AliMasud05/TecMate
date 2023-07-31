@@ -18,7 +18,7 @@ const SelectMonitorPage = ({ monitors }) => {
 export default SelectMonitorPage;
 export const getServerSideProps = async () => {
   const res = await fetch(
-    "https://professor-pc.vercel.app /products?category=monitor"
+    "https://professor-pc.vercel.app/products?category=monitor"
   );
   const data = await res.json();
   return {

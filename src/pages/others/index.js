@@ -19,7 +19,7 @@ export default OthersPage;
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "https://professor-pc.vercel.app /products?category=others"
+    "https://professor-pc.vercel.app/products?category=others"
   );
   const data = await res.json();
   return {

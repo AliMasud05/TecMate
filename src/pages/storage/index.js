@@ -19,7 +19,7 @@ export default StoragePage;
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "https://professor-pc.vercel.app /products?category=storage"
+    "https://professor-pc.vercel.app/products?category=storage"
   );
   const data = await res.json();
   return {

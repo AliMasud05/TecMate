@@ -19,7 +19,7 @@ export default RamPage;
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "https://professor-pc.vercel.app /products?category=ram"
+    "https://professor-pc.vercel.app/products?category=ram"
   );
   const data = await res.json();
   return {

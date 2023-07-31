@@ -18,7 +18,7 @@ const SelectStoragePage = ({ storages }) => {
 export default SelectStoragePage;
 export const getServerSideProps = async () => {
   const res = await fetch(
-    "https://professor-pc.vercel.app /products?category=storage"
+    "https://professor-pc.vercel.app/products?category=storage"
   );
   const data = await res.json();
   return {

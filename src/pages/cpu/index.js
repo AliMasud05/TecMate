@@ -19,7 +19,7 @@ export default ProcessorPage;
 
 export const getStaticProps = async () => {
   const res = await fetch(
-    "https://professor-pc.vercel.app /products?category=cpu"
+    "https://professor-pc.vercel.app/products?category=cpu"
   );
   const data = await res.json();
   return {
