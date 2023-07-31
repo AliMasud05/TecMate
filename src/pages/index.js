@@ -9,9 +9,10 @@ const HomePage = ({ allProducts }) => {
 
       <div className="mt-10">
         <h2 className="text-center text-2xl font-semibold mb-1">
-          Featured Products
+          Popular <span className="text-red-500 bg-slate-700 px-3">Featured</span> Products
         </h2>
-        <p className="text-center mb-3">Check & Get Your Desired Product!</p>
+        <p className="text-center mb-1">A fresh approach to shopping.</p>
+        <p className="text-center mb-3">Discover something new.</p>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5 p-3">
           {allProducts?.map((product) => (
             <ProductCard product={product} key={product._id} />
