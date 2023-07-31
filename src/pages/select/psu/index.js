@@ -18,7 +18,9 @@ const SelectPsuPage = ({ psu }) => {
 export default SelectPsuPage;
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/products?category=psu");
+  const res = await fetch(
+    "https://professor-pc.vercel.app /products?category=psu"
+  );
   const data = await res.json();
   return {
     props: {

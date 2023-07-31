@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { Dropdown, Space } from "antd";
 import Link from "next/link";
-import logo from "../../assets/logo.png";
+
 import navImage from "../../../public/db.json";
 import Image from "next/image";
 
@@ -64,7 +64,7 @@ const Navbar = () => {
           menu={{ items }}
         >
           <a onClick={(e) => e.preventDefault()}>
-            <Space>Hover me</Space>
+            <Space>Category</Space>
           </a>
         </Dropdown>
         <div className="ml-3 text-white bg-slate-400 px-2 rounded shadow-md font-serif">

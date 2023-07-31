@@ -51,13 +51,16 @@ const FeaturedCategory = () => {
           className="border border-gray-300 max-w-[110px] w-full h-24 p-2 hover:shadow-lg hover:text-violet-600 shadow-gray-400 flex flex-col justify-center items-center rounded-md transition-all duration-200 cursor-pointer mx-auto"
         >
           <FiMonitor size={40} />
-          <p className="mt-1">Monitor</p>
+          <p className="mt-1 rotate-">Monitor</p>
         </div>
         <div
           onClick={() => router.push("/others")}
-          className="border border-gray-300 max-w-[110px] w-full h-24 p-2 hover:shadow-lg hover:text-violet-600 shadow-gray-400 flex flex-col justify-center items-center rounded-md transition-all duration-200 cursor-pointer mx-auto"
+          className="border   border-gray-300 max-w-[110px] w-full h-24 p-2 hover:shadow-lg
+           hover:text-violet-600  flex
+             justify-center items-center rounded-md
+             transition-all duration-200 cursor-pointer mx-auto"
         >
-          <BsThreeDots size={40} />
+          <BsThreeDots className="rotate-90" size={40} />
           <p className="mt-1">Others</p>
         </div>
       </div>

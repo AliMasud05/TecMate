@@ -20,7 +20,9 @@ const SelectCpuPage = ({ processors }) => {
 export default SelectCpuPage;
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/products?category=cpu");
+  const res = await fetch(
+    "https://professor-pc.vercel.app /products?category=cpu"
+  );
   const data = await res.json();
   return {
     props: {

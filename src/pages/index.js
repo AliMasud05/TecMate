@@ -6,10 +6,19 @@ const HomePage = ({ allProducts }) => {
   return (
     <div className="max-w-7xl mx-auto pb-10 min-h-screen">
       <HomeSlider />
+      <div className="p-4">
+        <h2 className="text-center text-2xl font-semibold mb-1 mt-5">
+          Come today. Don’t delay.
+        </h2>
+        <p className="text-center mb-3">Harvest the best deals this fall.</p>
+        <FeaturedCategory />
+      </div>
 
       <div className="mt-10">
         <h2 className="text-center text-2xl font-semibold mb-1">
-          Popular <span className="text-red-500 bg-slate-700 px-3">Featured</span> Products
+          Popular{" "}
+          <span className="text-red-500 bg-slate-700 px-3">Featured</span>{" "}
+          Products
         </h2>
         <p className="text-center mb-1">A fresh approach to shopping.</p>
         <p className="text-center mb-3">Discover something new.</p>
@@ -19,16 +28,6 @@ const HomePage = ({ allProducts }) => {
           ))}
         </div>
       </div>
-
-      <div className="p-4">
-        <h2 className="text-center text-2xl font-semibold mb-1 mt-5">
-          Featured Category
-        </h2>
-        <p className="text-center mb-3">
-          Get Your Desired Product from Featured Category!
-        </p>
-        <FeaturedCategory />
-      </div>
     </div>
   );
 };
@@ -36,7 +35,9 @@ const HomePage = ({ allProducts }) => {
 export default HomePage;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products?featured=true");
+  const res = await fetch(
+    "https://professor-pc.vercel.app/products?featured=true"
+  );
   const data = await res.json();
   return {
     props: {

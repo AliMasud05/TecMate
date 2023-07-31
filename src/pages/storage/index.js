@@ -18,7 +18,9 @@ const StoragePage = ({ storages }) => {
 export default StoragePage;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:5000/products?category=storage");
+  const res = await fetch(
+    "https://professor-pc.vercel.app /products?category=storage"
+  );
   const data = await res.json();
   return {
     props: {
