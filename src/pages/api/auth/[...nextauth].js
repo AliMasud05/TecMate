@@ -14,7 +14,7 @@ export const authOptions = {
     }),
   ],
   pages: {
-    signIn: "https://tec-mate-y2mu.vercel.app/login",
+    signIn: "/login",
   },
 };
 
