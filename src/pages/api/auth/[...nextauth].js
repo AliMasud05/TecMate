@@ -14,7 +14,7 @@ export const authOptions = {
     }),
   ],
   pages: {
-    signIn: "/login",
+    signIn: "https://tec-mate-a4hde4a2l-alimasud05.vercel.app/login",
   },
 };
 

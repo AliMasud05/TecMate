@@ -11,7 +11,7 @@ const LoginPage = () => {
         <div
           onClick={() =>
             signIn("google", {
-              callbackUrl: "http://localhost:3000",
+              callbackUrl: "https://tec-mate-a4hde4a2l-alimasud05.vercel.app/",
             })
           }
           className="flex justify-center mt-5 border border-gray-300 hover:bg-slate-300 bg-slate-200 transition-all duration-200 rounded-full cursor-pointer "
@@ -21,7 +21,7 @@ const LoginPage = () => {
         <div
           onClick={() =>
             signIn("github", {
-              callbackUrl: "http://localhost:3000",
+              callbackUrl: "https://tec-mate-a4hde4a2l-alimasud05.vercel.app/",
             })
           }
           className="flex justify-center mt-5 border border-gray-300 hover:bg-slate-300 bg-slate-200 transition-all duration-200 rounded-full cursor-pointer "
