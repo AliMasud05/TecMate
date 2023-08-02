@@ -67,21 +67,21 @@ const SelectProductCard = ({ product }) => {
           src={image}
           alt=""
         />
+        <span
+          className={`${
+            product.status === "inStock" ? "text-green-700" : "text-black"
+          } font-semibold font-serif px-1 bg-slate-50 absolute py-1  rounded-r-md`}
+        >
+          {newStatus}
+        </span>
       </div>
       <div className="px-2">
         <h1 className="font-semibold mt-1 mb-2">{name}</h1>
       </div>
 
       <div className="p-2">
-        <div className="flex justify-between">
+        <div className="flex justify-center">
           <span className="">{newCategory}</span>
-          <span
-            className={`${
-              product.status === "inStock" ? "text-green-700" : "text-red-600"
-            } font-semibold`}
-          >
-            {newStatus}
-          </span>
         </div>
         <div className="flex justify-between mt-3">
           <span className="flex">
@@ -96,19 +96,21 @@ const SelectProductCard = ({ product }) => {
           </span>
         </div>
 
-        <button
-          onClick={() => router.push(`/products/${_id}`)}
-          className="mt-3 text-center w-full bg-slate-800 text-white py-1.5 rounded-full font-medium text-xs"
-        >
-          Details
-        </button>
+        <div className="flex">
+          <button
+            onClick={() => router.push(`/products/${_id}`)}
+            className="mt-3 text-center w-full bg-slate-500 text-black py-1.5 rounded-full font-medium text-xs"
+          >
+            Details
+          </button>
 
-        <button
-          onClick={handlePcBuildFunc}
-          className="mt-3 text-center w-full bg-slate-800 text-white py-1.5 rounded-full font-medium text-xs"
-        >
-          Add To Builder
-        </button>
+          <button
+            onClick={handlePcBuildFunc}
+            className="mt-3 text-center w-full bg-stone-500 text-white py-1.5 rounded-full font-medium text-xs"
+          >
+            Add To Builder
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -40,45 +40,93 @@ const Navbar = () => {
     },
   ];
   const router = useRouter();
-  return (    
-    <div className="bg-inherit grid grid-cols-4 py-1 px-2 bg-slate-500 ">
-      <div className="flex col-span-2">
-        <div>
-          <h1
-            onClick={() => router.push("/")}
-            className="font-serif text-2xl bg-slate-700 italic px-2 py-1 rounded-md ml-1 cursor-pointer border-s"
+  return (
+    <div className="navbar bg-base-100">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            TECMATE
-          </h1>
+            <li>
+              <Dropdown
+                className="ml-3 text-white bg-slate-400  px-1 rounded shadow-md font-serif  "
+                menu={{ items }}
+              >
+                <a onClick={(e) => e.preventDefault()}>
+                  <Space>Category</Space>
+                </a>
+              </Dropdown>
+            </li>
+            <li>
+              <button
+                className="ml-3 text-white bg-slate-400 shadow-md font-serif rounded-md px-2 "
+                onClick={() => router.push("/pc-build")}
+              >
+                Pc Builder
+              </button>
+            </li>
+          </ul>
         </div>
-      </div>
-      <div className="flex items-center justify-between  col-span-2">
         <button
-          className="ml-3 text-white bg-slate-400 shadow-md font-serif rounded-md px-2 "
-          onClick={() => router.push("/pc-build")}
+          onClick={() => router.push("/")}
+          className="font-serif text-2xl  italic px-2 py-1 rounded-md ml-1 cursor-pointer border-s"
         >
-          Pc Builder
+          TECMATE
         </button>
-        <Dropdown
-          className="ml-3 text-white bg-slate-400  px-1 rounded shadow-md font-serif  "
-          menu={{ items }}
-        >
-          <a onClick={(e) => e.preventDefault()}>
-            <Space>Category</Space>
-          </a>
-        </Dropdown>
-        <div className="ml-3 text-white bg-slate-400 px-2 rounded shadow-md font-serif">
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1">
+          <li>
+            <Dropdown
+              className="ml-3 text-white bg-slate-400  px-1 rounded shadow-md font-serif  "
+              menu={{ items }}
+            >
+              <a onClick={(e) => e.preventDefault()}>
+                <Space>Category</Space>
+              </a>
+            </Dropdown>
+          </li>
+
+          <li>
+            <button
+              className="ml-3 text-white bg-slate-400 shadow-md font-serif rounded-md px-2 "
+              onClick={() => router.push("/pc-build")}
+            >
+              Pc Builder
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div className="navbar-end">
+        <div className="ml-3 text-white  px-2 rounded shadow-md font-serif">
           {session?.user ? (
             <button
               onClick={() => signOut()}
-              className="ml-5 border-0  shadow-md font-serif bg-red-500 rounded text-white py-1.5 px-3 text-xs font-semibold cursor-pointer hover:bg-red-600 transition-all duration-200"
+              className=" border-0 shadow-lg text-md font-serif  bg-zinc-900 rounded px-2 py-2  font-semibold  cursor-pointer transition-all duration-200"
             >
               Logout
             </button>
           ) : (
             <button
               onClick={() => router.push("/login")}
-              className=" border-0 shadow-md font-serif text-slate-200 bg-zinc-900 rounded px-2 py-1   text-xs font-semibold  cursor-pointer transition-all duration-200"
+              className=" border-0 shadow-lg text-md font-serif  bg-zinc-900 rounded px-2 py-2  font-semibold  cursor-pointer transition-all duration-200"
             >
               Login
             </button>

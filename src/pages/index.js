@@ -17,7 +17,7 @@ const HomePage = ({ allProducts }) => {
       <div className="mt-10">
         <h2 className="text-center text-2xl font-semibold mb-1">
           Popular{" "}
-          <span className="text-red-500 bg-slate-700 px-3">Featured</span>{" "}
+          <span className="text-red-500 font-bold px-3">Featured</span>{" "}
           Products
         </h2>
         <p className="text-center mb-1">A fresh approach to shopping.</p>

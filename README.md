@@ -1,4 +1,4 @@
-** Live Link== [https://tec-mate-y2mu.vercel.app/]
+** Live Link== [https://tec-mate.vercel.app/]
 
 ** Description
 This is pc building website here use choose their best product and make a personal computer.
