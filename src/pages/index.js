@@ -1,11 +1,13 @@
 import FeaturedCategory from "@/components/ui/FeaturedCategory";
 import ProductCard from "@/components/ui/ProductCard";
 import HomeSlider from "@/components/ui/Slider";
+import Protection from "@/components/ui/protection";
 
 const HomePage = ({ allProducts }) => {
   return (
     <div className="max-w-7xl mx-auto pb-10 min-h-screen">
       <HomeSlider />
+      <Protection/>
       <div className="p-4">
         <h2 className="text-center text-2xl font-semibold mb-1 mt-5">
           Come today. Don’t delay.
